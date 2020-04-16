@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#01579B" />
+    <title>COVID-19 STATUS</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/font-awesome/css/all.css" />
+  </head>
+  <body>
+    <header>
+      <img class="header__img header-item" src="" alt="info-graphic" />
+      <p class="header__para header-item"></p>
+    </header>
+    <main>
+      <div class="left-panel">
+        <section class="global">
+          <div class="global__div">
+            <img
+              class="global__div--img"
+              src="./assets/img/world.svg"
+              alt="world-img"
+            />
+            <span>COVID-19 World's Status</span>
+          </div>
+          <div class="global__grid">
+            <div class="global__grid--totalconfirmed grid-item">
+              <h3>CONFIRMED</h3>
+              <img src="./assets/img/virus.svg" alt="corona-virus" />
+              <p class="global__grid--totalconfirmed-info"></p>
+            </div>
+            <div class="global__grid--totalrecovered grid-item">
+              <h3>RECOVERED</h3>
+              <img src="./assets/img/virus.svg" alt="corona-virus" />
+              <p class="global__grid--totalrecovered-info"></p>
+            </div>
+            <div class="global__grid--totaldeaths grid-item">
+              <h3>DEATHS</h3>
+              <img src="./assets/img/virus.svg" alt="corona-virus" />
+              <p class="global__grid--totaldeaths-info"></p>
+            </div>
+          </div>
+        </section>
+
+        <section class="india">
+          <div class="india__div">
+            <img
+              class="india__div--img"
+              src="./assets/img/india.svg"
+              alt="india-img"
+            />
+            <span>COVID-19 India's Status</span>
+          </div>
+          <div class="india__grid">
+            <div class="india__grid--totalconfirmed grid-item">
+              <h3>CONFIRMED</h3>
+              <img src="./assets/img/virus.svg" alt="corona-virus" />
+              <p class="india__grid--totalconfirmed-info"></p>
+            </div>
+            <div class="india__grid--totalrecovered grid-item">
+              <h3>RECOVERED</h3>
+              <img src="./assets/img/virus.svg" alt="corona-virus" />
+              <p class="india__grid--totalrecovered-info"></p>
+            </div>
+            <div class="india__grid--totaldeaths grid-item">
+              <h3>DEATHS</h3>
+              <img src="./assets/img/virus.svg" alt="corona-virus" />
+              <p class="india__grid--totaldeaths-info"></p>
+            </div>
+          </div>
+        </section>
+
+        <section class="mygov">
+          <div class="mygov__div">
+            <span class="mygov__title">Government of India Social Hub</span>
+          </div>
+
+          <div class="mygov__social">
+            <a
+              class="mygov__social--anchor"
+              target="_blank"
+              href="https://www.facebook.com/MyGovIndia/"
+              title="@MyGovIndiaFacebook Page"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <a
+              target="_blank"
+              href="https://wa.me/919013353535?text=Hi"
+              class="mygov__social--anchor"
+              title=" +91-9013353535WhatsApp"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+
+            <a
+              target="_blank"
+              href="https://www.messenger.com/t/MyGovIndia"
+              class="mygov__social--anchor"
+              title="@MyGovIndiaFacebook Messenger"
+              ><i class="fab fa-facebook-messenger"></i
+            ></a>
+
+            <a
+              target="_blank"
+              href="https://t.me/MyGovCoronaNewsdesk"
+              class="mygov__social--anchor"
+              title="@MyGovCoronaNewsdesk Telegram"
+              ><i class="fab fa-telegram-plane"></i
+            ></a>
+
+            <a
+              target="_blank"
+              href="https://www.instagram.com/mygovindia/"
+              class="mygov__social--anchor"
+              title="@MyGovIndiaInstagram Page"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <a
+              target="_blank"
+              href="https://twitter.com/mygovindia"
+              class="mygov__social--anchor"
+              title="@MyGovIndiaTwitter Page"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/mygov-india/"
+              class="mygov__social--anchor"
+              title="@MyGovIndiaLinkedIn Page"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+
+            <a
+              target="_blank"
+              href="https://www.youtube.com/mygovindia"
+              class="mygov__social--anchor"
+              title="@MyGovIndiaYouTube Page"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </section>
+      </div>
+      <div class="right-panel">
+        <section class="country">
+          <div class="country__header">
+            <div class="country__header--title">
+              <span class="country__header--title-span"
+                >COVID-19 Country Stats</span
+              >
+            </div>
+            <div class="country__header--category">
+              <span class="country__header--category-country">Country</span>
+              <span class="country__header--category-confirmed">Confirmed</span>
+              <span class="country__header--category-recovered">Recovered</span>
+              <span class="country__header--category-deaths">Deaths</span>
+            </div>
+          </div>
+
+          <div class="country__data"></div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p class="footer__para">
+        Data Source : Crowdsourced Patient Data
+      </p>
+      <p class="footer__para">
+        Developer : <a target="_blank" href="https://kaushikdev.com">Piyush Kaushik</a>
+      </p>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
