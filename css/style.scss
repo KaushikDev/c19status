@@ -1,0 +1,415 @@
+@font-face {
+  src: url("./assets/fonts/Nunito-Regular.ttf");
+  font-family: "Nunito";
+}
+@font-face {
+  src: url("./assets/fonts/Montserrat-Regular.ttf");
+  font-family: "Nunito";
+}
+
+@mixin flex-row-centered{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 0.2rem;
+  background: #01579b;
+  width: 100vw;
+  height: 10vh;
+ @include flex-row-centered();
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+
+  .header-item {
+    margin: 1rem;
+  }
+  .header__img {
+    height: 100%;
+    background: #fff;
+    border-radius: 50%;
+  }
+  .header__para {
+    font-size: 1rem;
+    color: #fff;
+  }
+}
+
+main {
+  background: transparent;
+  height: 85vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+
+  .left-panel {
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+    .global {
+      width: 100%;
+      height: auto;
+      padding: 1rem;
+
+      .global__div {
+        padding: 1rem;
+        @include flex-row-centered();
+
+        .global__div--img {
+          width: 2rem;
+          height: 2rem;
+        }
+
+        span {
+          margin: 1rem;
+          font: {
+            size: 1.5rem;
+            family: "Montserrat", sans-serif;
+          }
+        }
+      }
+
+      .global__grid {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 150px);
+        gap: 1rem;
+        grid-template-rows: minmax(100px, 1fr);
+
+        .grid-item {
+          padding: 1rem;
+          border: none;
+          border-radius: 10px;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+          color: #fff;
+          font-size: 0.6rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+        }
+
+        .global__grid--totalconfirmed {
+          background: linear-gradient(180deg, #2196f3, #fff);
+          img {
+            width: 2rem;
+            height: 2rem;
+          }
+          p {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2196f3;
+          }
+        }
+
+        .global__grid--totalrecovered {
+          background: linear-gradient(180deg, #00c853, #fff);
+          img {
+            width: 2rem;
+            height: 2rem;
+          }
+          p {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #00c853;
+          }
+        }
+
+        .global__grid--totaldeaths {
+          background: linear-gradient(180deg, #f44336, #fff);
+          img {
+            width: 2rem;
+            height: 2rem;
+          }
+          p {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #f44336;
+          }
+        }
+      }
+    }
+
+    .india {
+      width: 100%;
+      height: auto;
+      padding: 1rem;
+
+      .india__div {
+        padding: 1rem;
+       @include flex-row-centered();
+
+        .india__div--img {
+          width: 2rem;
+          height: 2rem;
+        }
+
+        span {
+          margin: 1rem;
+          font: {
+            size: 1.5rem;
+            family: "Montserrat", sans-serif;
+          }
+        }
+      }
+      .india__grid {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 150px);
+        gap: 1rem;
+        grid-template-rows: minmax(100px, 1fr);
+
+        .grid-item {
+          padding: 1rem;
+          border: none;
+          border-radius: 10px;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+          color: #fff;
+          font-size: 0.6rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+        }
+
+        .india__grid--totalconfirmed {
+          background: linear-gradient(180deg, #2196f3, #fff);
+          img {
+            width: 2rem;
+            height: 2rem;
+          }
+          p {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2196f3;
+          }
+        }
+
+        .india__grid--totalrecovered {
+          background: linear-gradient(180deg, #00c853, #fff);
+          img {
+            width: 2rem;
+            height: 2rem;
+          }
+          p {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #00c853;
+          }
+        }
+
+        .india__grid--totaldeaths {
+          background: linear-gradient(180deg, #f44336, #fff);
+          img {
+            width: 2rem;
+            height: 2rem;
+          }
+          p {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #f44336;
+          }
+        }
+      }
+    }
+
+    .mygov {
+      width: 100%;
+      height: auto;
+   
+
+      .mygov__div {
+        padding: 1rem;
+       @include flex-row-centered();
+
+        .mygov__title {
+    
+          font: {
+            size: 1.5rem;
+            family: "Montserrat", sans-serif;
+          }
+        }
+      }
+      .mygov__social {
+        width: 100%;
+    
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: minmax(75px, 1fr);
+        gap: 1rem;
+
+        .mygov__social--anchor {
+          text-decoration: none;
+          font-size: 1.5rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .fa-facebook-f {
+            color: #3b5998;
+          }
+
+          .fa-whatsapp {
+            color: #4fce5d;
+          }
+
+          .fa-facebook-messenger {
+            color: #0084ff;
+          }
+
+          .fa-telegram-plane {
+            color: #0088cc;
+          }
+
+          .fa-instagram {
+            background: linear-gradient(
+              #405de6,
+              #5851db,
+              #833ab4,
+              #c13584,
+              #e1306c,
+              #fd1d1d,
+              #f56040,
+              #f77737,
+              #fcaf45,
+              #ffdc80
+            );
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+
+          .fa-twitter {
+            color: #55acee;
+          }
+
+          .fa-linkedin-in {
+            color: #0e76a8;
+          }
+
+          .fa-youtube {
+            color: #ff0000;
+          }
+        }
+      }
+    }
+  }
+
+  .right-panel {
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .country {
+      width: 100%;
+      height: auto;
+      overflow: scroll;
+  
+      .country__header {
+        position: fixed;
+        width: 50%; //50% only if position is fixed
+        padding: 1rem;
+        background: #039be5;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        .country__header--title{
+          margin: .5rem;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+
+          span{
+            width: 100%;
+            color: #fff;
+            text-align: center;
+          }
+        }
+
+        .country__header--category{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          
+          span {
+            font-weight: bold;
+            width: 25%;
+            color: #fff;
+            text-decoration: underline;
+            text-align: center;
+          }
+        }
+      
+      }
+
+      .country__data {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+         margin: 1rem 0;
+
+        .country__data--div {
+          width: 100%;
+          padding: 1rem;
+          background: #e1f5fe;
+          margin: 0.2rem 0;
+          display: flex;
+          flex-direction: row;
+      
+
+          span {
+             width: 25%;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  padding: 0.2rem;
+  background: #01579b;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+
+  .footer__para {
+    font-size: 0.9rem;
+    color: #fff;
+
+    a {
+      color: #fff;
+    }
+  }
+}

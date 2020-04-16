@@ -1,0 +1,466 @@
+@media screen and (min-width: 300px) and (max-width: 728px) {
+  main {
+    background: transparent;
+    height: auto;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-family: "Nunito", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  main .left-panel {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .left-panel .global {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+  }
+  main .left-panel .global .global__div {
+    padding: 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .left-panel .global .global__div .global__div--img {
+    width: 2rem;
+    height: 2rem;
+  }
+  main .left-panel .global .global__div span {
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  main .left-panel .global .global__grid {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (100px)[3];
+        grid-template-columns: repeat(3, 100px);
+    gap: 1rem;
+    -ms-grid-rows: minmax(100px, 1fr);
+        grid-template-rows: minmax(100px, 1fr);
+  }
+  main .left-panel .global .global__grid .grid-item {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .left-panel .global .global__grid .global__grid--totalconfirmed {
+    background: -webkit-gradient(linear, left top, left bottom, from(#2196f3), to(#fff));
+    background: linear-gradient(180deg, #2196f3, #fff);
+  }
+  main .left-panel .global .global__grid .global__grid--totalconfirmed img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  main .left-panel .global .global__grid .global__grid--totalconfirmed p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2196f3;
+  }
+  main .left-panel .global .global__grid .global__grid--totalrecovered {
+    background: -webkit-gradient(linear, left top, left bottom, from(#00c853), to(#fff));
+    background: linear-gradient(180deg, #00c853, #fff);
+  }
+  main .left-panel .global .global__grid .global__grid--totalrecovered img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  main .left-panel .global .global__grid .global__grid--totalrecovered p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #00c853;
+  }
+  main .left-panel .global .global__grid .global__grid--totaldeaths {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f44336), to(#fff));
+    background: linear-gradient(180deg, #f44336, #fff);
+  }
+  main .left-panel .global .global__grid .global__grid--totaldeaths img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  main .left-panel .global .global__grid .global__grid--totaldeaths p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f44336;
+  }
+  main .left-panel .india {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+  }
+  main .left-panel .india .india__div {
+    padding: 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .left-panel .india .india__div .india__div--img {
+    width: 2rem;
+    height: 2rem;
+  }
+  main .left-panel .india .india__div span {
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  main .left-panel .india .india__grid {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (100px)[3];
+        grid-template-columns: repeat(3, 100px);
+    gap: 1rem;
+    -ms-grid-rows: minmax(100px, 1fr);
+        grid-template-rows: minmax(100px, 1fr);
+  }
+  main .left-panel .india .india__grid .grid-item {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .left-panel .india .india__grid .india__grid--totalconfirmed {
+    background: -webkit-gradient(linear, left top, left bottom, from(#2196f3), to(#fff));
+    background: linear-gradient(180deg, #2196f3, #fff);
+  }
+  main .left-panel .india .india__grid .india__grid--totalconfirmed img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  main .left-panel .india .india__grid .india__grid--totalconfirmed p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2196f3;
+  }
+  main .left-panel .india .india__grid .india__grid--totalrecovered {
+    background: -webkit-gradient(linear, left top, left bottom, from(#00c853), to(#fff));
+    background: linear-gradient(180deg, #00c853, #fff);
+  }
+  main .left-panel .india .india__grid .india__grid--totalrecovered img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  main .left-panel .india .india__grid .india__grid--totalrecovered p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #00c853;
+  }
+  main .left-panel .india .india__grid .india__grid--totaldeaths {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f44336), to(#fff));
+    background: linear-gradient(180deg, #f44336, #fff);
+  }
+  main .left-panel .india .india__grid .india__grid--totaldeaths img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  main .left-panel .india .india__grid .india__grid--totaldeaths p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f44336;
+  }
+  main .left-panel .mygov {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+  }
+  main .left-panel .mygov .mygov__div {
+    padding: 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .left-panel .mygov .mygov__div .mygov__title {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  main .left-panel .mygov .mygov__social {
+    width: 100%;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    background: #eee;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[8];
+        grid-template-columns: repeat(8, 1fr);
+    -ms-grid-rows: minmax(75px, 1fr);
+        grid-template-rows: minmax(75px, 1fr);
+    gap: 1rem;
+  }
+  main .left-panel .mygov .mygov__social .mygov__social--anchor {
+    text-decoration: none;
+    font-size: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .left-panel .mygov .mygov__social .mygov__social--anchor .fa-facebook-f {
+    color: #3b5998;
+  }
+  main .left-panel .mygov .mygov__social .mygov__social--anchor .fa-whatsapp {
+    color: #4fce5d;
+  }
+  main .left-panel .mygov .mygov__social .mygov__social--anchor .fa-facebook-messenger {
+    color: #0084ff;
+  }
+  main .left-panel .mygov .mygov__social .mygov__social--anchor .fa-telegram-plane {
+    color: #0088cc;
+  }
+  main .left-panel .mygov .mygov__social .mygov__social--anchor .fa-instagram {
+    background: -webkit-gradient(linear, left top, left bottom, from(#405de6), color-stop(#5851db), color-stop(#833ab4), color-stop(#c13584), color-stop(#e1306c), color-stop(#fd1d1d), color-stop(#f56040), color-stop(#f77737), color-stop(#fcaf45), to(#ffdc80));
+    background: linear-gradient(#405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  main .left-panel .mygov .mygov__social .mygov__social--anchor .fa-twitter {
+    color: #55acee;
+  }
+  main .left-panel .mygov .mygov__social .mygov__social--anchor .fa-linkedin-in {
+    color: #0e76a8;
+  }
+  main .left-panel .mygov .mygov__social .mygov__social--anchor .fa-youtube {
+    color: #ff0000;
+  }
+  main .right-panel {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .right-panel .country {
+    padding: 0.5rem;
+    width: 100%;
+    height: 50vh;
+    overflow: scroll;
+  }
+  main .right-panel .country .country__header {
+    position: static;
+    width: 100%;
+    padding: 0.5rem;
+    background: #039be5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .right-panel .country .country__header .country__header--title {
+    margin: .5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .right-panel .country .country__header .country__header--title span {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+  }
+  main .right-panel .country .country__header .country__header--category {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .right-panel .country .country__header .country__header--category span {
+    font-size: 0.75rem;
+    font-weight: bold;
+    width: 25%;
+    color: #fff;
+    text-align: center;
+  }
+  main .right-panel .country .country__data {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0.5rem 0;
+  }
+  main .right-panel .country .country__data .country__data--div {
+    width: 100%;
+    padding: 0.5rem;
+    background: #e1f5fe;
+    margin: 0.2rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main .right-panel .country .country__data .country__data--div span {
+    width: 25%;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+  footer {
+    padding: 1rem;
+    background: #01579b;
+    width: 100vw;
+    height: 10vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Nunito", sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  footer .footer__para {
+    font-size: 0.75rem;
+    color: #fff;
+  }
+  footer .footer__para a {
+    font-size: 0.75rem;
+    color: #fff;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */
