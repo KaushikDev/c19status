@@ -336,13 +336,10 @@
   }
   main .right-panel .country {
     width: 100%;
-    height: auto;
-    overflow: scroll;
+    height: 84vh;
   }
   main .right-panel .country .country__header {
-    position: fixed;
-    width: 50%;
-    padding: 1rem;
+    width: 100%;
     background: #039be5;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -351,12 +348,8 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
   main .right-panel .country .country__header .country__header--title {
-    margin: .5rem;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -374,11 +367,12 @@
   }
   main .right-panel .country .country__header .country__header--title span {
     width: 100%;
-    color: #fff;
+    color: #000;
     text-align: center;
-    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
   }
   main .right-panel .country .country__header .country__header--category {
+    padding: 1rem;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -395,14 +389,14 @@
             align-items: center;
   }
   main .right-panel .country .country__header .country__header--category span {
-    font-weight: bold;
     width: 25%;
     color: #fff;
-    text-decoration: underline;
     text-align: center;
     font-size: 0.9rem;
   }
   main .right-panel .country .country__data {
+    overflow: auto;
+    height: 90%;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -411,13 +405,11 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 1rem 0;
   }
   main .right-panel .country .country__data .country__data--div {
     width: 100%;
     padding: 1rem;
     background: #e1f5fe;
-    margin: 0.2rem 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -425,6 +417,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
   }
   main .right-panel .country .country__data .country__data--div span {
     width: 25%;

@@ -308,20 +308,15 @@
       
           .country {
             width: 100%;
-            height: auto;
-            overflow: scroll;
-        
+            height: 84vh;
+             
             .country__header {
-              position: fixed;
-              width: 50%; //50% only if position is fixed
-              padding: 1rem;
+              width: 100%; //50% only if position is fixed
               background: #039be5;
               display: flex;
               flex-direction: column;
-              justify-content: space-between;
-              
+                            
               .country__header--title{
-                margin: .5rem;
                 width: 100%;
                 display: flex;
                 flex-direction: row;
@@ -330,13 +325,14 @@
       
                 span{
                   width: 100%;
-                  color: #fff;
+                  color: #000;
                   text-align: center;
-                  font-size: 1rem;
+                  font-family: "Montserrat", sans-serif;
                 }
               }
       
               .country__header--category{
+                padding: 1rem;
                 width: 100%;
                 display: flex;
                 flex-direction: row;
@@ -344,10 +340,9 @@
                 align-items: center;
                 
                 span {
-                  font-weight: bold;
+                  
                   width: 25%;
                   color: #fff;
-                  text-decoration: underline;
                   text-align: center;
                   font-size: 0.9rem;
                 }
@@ -356,18 +351,19 @@
             }
       
             .country__data {
+              overflow: auto;
+              height: 90%; //new
               width: 100%;
               display: flex;
               flex-direction: column;
-               margin: 1rem 0;
-      
+               
               .country__data--div {
                 width: 100%;
                 padding: 1rem;
                 background: #e1f5fe;
-                margin: 0.2rem 0;
                 display: flex;
                 flex-direction: row;
+                border-bottom: 1px solid rgba(255,255,255, 0.75);
             
       
                 span {

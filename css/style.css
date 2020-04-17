@@ -129,17 +129,17 @@ main .left-panel .global .global__grid {
           justify-content: center;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (150px)[3];
-      grid-template-columns: repeat(3, 150px);
+  -ms-grid-columns: (125px)[3];
+      grid-template-columns: repeat(3, 125px);
   gap: 1rem;
-  -ms-grid-rows: minmax(100px, 1fr);
-      grid-template-rows: minmax(100px, 1fr);
+  -ms-grid-rows: minmax(125px, 1fr);
+      grid-template-rows: minmax(125px, 1fr);
 }
 
 main .left-panel .global .global__grid .grid-item {
   padding: 1rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 50%;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -247,17 +247,17 @@ main .left-panel .india .india__grid {
           justify-content: center;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (150px)[3];
-      grid-template-columns: repeat(3, 150px);
+  -ms-grid-columns: (125px)[3];
+      grid-template-columns: repeat(3, 125px);
   gap: 1rem;
-  -ms-grid-rows: minmax(100px, 1fr);
-      grid-template-rows: minmax(100px, 1fr);
+  -ms-grid-rows: minmax(125px, 1fr);
+      grid-template-rows: minmax(125px, 1fr);
 }
 
 main .left-panel .india .india__grid .grid-item {
   padding: 1rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 50%;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -331,7 +331,6 @@ main .left-panel .mygov {
 }
 
 main .left-panel .mygov .mygov__div {
-  padding: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -436,14 +435,11 @@ main .right-panel {
 
 main .right-panel .country {
   width: 100%;
-  height: auto;
-  overflow: scroll;
+  height: 84vh;
 }
 
 main .right-panel .country .country__header {
-  position: fixed;
-  width: 50%;
-  padding: 1rem;
+  width: 100%;
   background: #039be5;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -452,13 +448,9 @@ main .right-panel .country .country__header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 main .right-panel .country .country__header .country__header--title {
-  margin: .5rem;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -477,11 +469,13 @@ main .right-panel .country .country__header .country__header--title {
 
 main .right-panel .country .country__header .country__header--title span {
   width: 100%;
-  color: #fff;
+  color: #000;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 main .right-panel .country .country__header .country__header--category {
+  padding: 1rem;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -499,14 +493,14 @@ main .right-panel .country .country__header .country__header--category {
 }
 
 main .right-panel .country .country__header .country__header--category span {
-  font-weight: bold;
   width: 25%;
   color: #fff;
-  text-decoration: underline;
   text-align: center;
 }
 
 main .right-panel .country .country__data {
+  overflow: auto;
+  height: 90%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -515,14 +509,12 @@ main .right-panel .country .country__data {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 1rem 0;
 }
 
 main .right-panel .country .country__data .country__data--div {
   width: 100%;
   padding: 1rem;
   background: #e1f5fe;
-  margin: 0.2rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -530,6 +522,7 @@ main .right-panel .country .country__data .country__data--div {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
 }
 
 main .right-panel .country .country__data .country__data--div span {
